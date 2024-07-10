@@ -54,10 +54,18 @@ html,body{
     font-weight: 400;
     font-size: 1vw;
     text-transform: lowercase;
+    margin-top: 1px;
     margin: 5px ;
     padding: 5px 10px;
     border: 1px solid #6f5353;
     border-radius: 50px;
+    
+}
+
+#page1-something h4:nth-last-child(2){
+    border: none;
+    padding: 2px;
+    
     
 }
 
