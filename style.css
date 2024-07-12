@@ -15,7 +15,7 @@ nav{
     position: fixed;
     /* background-color: red; */
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     width: 100%;
     padding: 2vw 7vw;
     justify-content: space-between;
@@ -25,53 +25,63 @@ nav{
 .nav-part2 {
     display: flex;
     gap: 5vw;
+    align-items: flex-start;
+    padding: 1vh 0;
 }
 
 .nav-part2 h4{
-    font-size: 1vw;
+    font-size: 0.6vw;
     text-transform: uppercase;
     font-weight: 400;
+    margin-bottom: 2vw;
 }
 
-nav:hover #nav-bottom{
+.nav-part2 h5{
+    margin-bottom: 1vw;
+    background-color: red;
+}
+
+.nav-part2 h5 span{
+    font-size: 0.68vw;
+    font-weight: 400;
+    display: inline-block;
+    
+}
+
+ /* nav:hover #nav-bottom{
     height: 150%;
     bottom: -150%; 
     background-color: #111;
 }
 
 #nav-bottom{
-    /* background-color: red; */
     height: 0%;
     position: absolute;
     width: 86%;
     transition: all ease 0.65s;
     bottom: 0%;
-    border-bottom: 1px solid #dadada;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    /* justify-content: center; */
-    /* gap: 2vw; */
     padding: 2vw 16vw;
     padding-left: 26.9vw;
-    /* padding-top: 6vw; */
 }
+
 
 .bottom-div{
     margin-top: 2vw;
 }
 
 .bottom-div h5{
-    /* background-color: red; */
     overflow: hidden;
     margin: 0.6vw;
 }
-.bottom-div h5 span{
+ .bottom-div h5 span{
     font-weight: 500;
     display: inline-block;
     font-size: 0.9vw;
     opacity: 0;   
-}
+}  */
 
 nav button {
     background-color: rgb(81, 173, 81);
@@ -89,6 +99,24 @@ nav button svg{
     margin-left: 1.6vw;
 
 }
+
+
+
+
+
+
+#nav-bottom{
+    width: 88%;
+    height: 40%;
+    position: absolute;
+    background-color: red;
+    bottom: 0;
+}
+
+
+
+
+
 
 #page1{
     height: 100vh;
