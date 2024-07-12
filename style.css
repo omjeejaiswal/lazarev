@@ -13,9 +13,10 @@ html,body{
 
 nav{
     position: fixed;
-    /* background-color: red; */
+    /* background-color: green; */
     display: flex;
     align-items: flex-start;
+    height: 12vh;
     width: 100%;
     padding: 2vw 7vw;
     justify-content: space-between;
@@ -27,25 +28,27 @@ nav{
     gap: 5vw;
     align-items: flex-start;
     padding: 1vh 0;
+    position: relative;
+    z-index: 10;
 }
 
 .nav-part2 h4{
     font-size: 0.6vw;
     text-transform: uppercase;
     font-weight: 400;
-    margin-bottom: 2vw;
+    margin-bottom: 2.6vw;
 }
 
 .nav-part2 h5{
     margin-bottom: 1vw;
-    background-color: red;
+    /* background-color: red; */
+    opacity: 0;
 }
 
 .nav-part2 h5 span{
     font-size: 0.68vw;
     font-weight: 400;
-    display: inline-block;
-    
+    display: inline-block; 
 }
 
  /* nav:hover #nav-bottom{
@@ -107,10 +110,13 @@ nav button svg{
 
 #nav-bottom{
     width: 88%;
-    height: 40%;
+    height: 3vh;
     position: absolute;
-    background-color: red;
-    bottom: 0;
+    /* background-color: red; */
+    top: 85%;
+    background-color: #111;
+    z-index: 9;
+    border-bottom: 1px solid white;
 }
 
 
