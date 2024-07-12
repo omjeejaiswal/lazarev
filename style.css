@@ -42,49 +42,18 @@ nav{
 .nav-part2 h5{
     margin-bottom: 1vw;
     /* background-color: red; */
-    opacity: 0;
+    /* opacity: 0; */
+    display: none;
+    overflow: hidden;
 }
 
 .nav-part2 h5 span{
     font-size: 0.68vw;
     font-weight: 400;
+    transform: translateY(25px);
     display: inline-block; 
 }
 
- /* nav:hover #nav-bottom{
-    height: 150%;
-    bottom: -150%; 
-    background-color: #111;
-}
-
-#nav-bottom{
-    height: 0%;
-    position: absolute;
-    width: 86%;
-    transition: all ease 0.65s;
-    bottom: 0%;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    padding: 2vw 16vw;
-    padding-left: 26.9vw;
-}
-
-
-.bottom-div{
-    margin-top: 2vw;
-}
-
-.bottom-div h5{
-    overflow: hidden;
-    margin: 0.6vw;
-}
- .bottom-div h5 span{
-    font-weight: 500;
-    display: inline-block;
-    font-size: 0.9vw;
-    opacity: 0;   
-}  */
 
 nav button {
     background-color: rgb(81, 173, 81);
