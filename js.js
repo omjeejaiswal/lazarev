@@ -1,4 +1,4 @@
-// function navAnimation() {
+function navAnimation() {
     let nav = document.querySelector("nav")
 
     nav.addEventListener("mouseenter", function () {
@@ -38,4 +38,16 @@
             duration: 0.2
         })
     })
-// }
+}
+
+
+// nav Animaltion
+let reelem = document.querySelector(#right-elem1)
+let 
+
+
+
+
+navAnimation()
+
+
