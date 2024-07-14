@@ -82,10 +82,34 @@ rightElems.forEach(function(elem) {
 })
 }
 
+function page3videoAnimation() {
+    let page3Center = document.querySelector(".page3-center")
+let video = document.querySelector("#page3 video")
+
+page3Center.addEventListener("click", function() {
+    video.play()
+    gsap.to(video, {
+        transform: "scaleX(1) scaleY(1)",
+        opacity: 1,
+        borderRadius: 0
+    })
+})
+
+video.addEventListener("click", function() {
+    video.pause()
+    gsap.to(video, {
+        transform: "scaleX(0.7) scaleY(0)",
+        opacity: 0,
+        borderRadius: "30px"
+    })
+})
+
+}
 
 
 
-navAnimation()
-page2Animation()
+// navAnimation()
+// page2Animation()
+// page3videoAnimation()
 
 
