@@ -41,15 +41,19 @@ function navAnimation() {
 }
 
 
-// nav Animaltion
-// let relem = document.querySelector("#right-elem")
-// let relemImg = document/querySelector("#right-elem img")
 
-// relem.addEventListener("mouseenter", function() {
-//     relemImg.style.opacity = 1
-// })
 
 function page2Animation() {
+    // nav Animaltion
+
+
+    // let relem = document.querySelector("#right-elem")
+    // let relemImg = document/querySelector("#right-elem img")
+
+    // relem.addEventListener("mouseenter", function() {
+    //     relemImg.style.opacity = 1
+    // })
+
     // elem -- is div
 let rightElems  = document.querySelectorAll(".right-elem")
 
@@ -70,8 +74,8 @@ rightElems.forEach(function(elem) {
         // console.log(elem.getBoundingClientRect().y)
 
         gsap.to(elem.childNodes[3], {
-            x:dets.x - elem.getBoundingClientRect().x-50,
-            y:dets.y - elem.getBoundingClientRect().y-190
+            x: dets.x - elem.getBoundingClientRect().x - 50,
+            y: dets.y - elem.getBoundingClientRect().y - 150
         }) 
 
     })
