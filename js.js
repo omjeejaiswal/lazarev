@@ -42,12 +42,46 @@ function navAnimation() {
 
 
 // nav Animaltion
-let reelem = document.querySelector(#right-elem1)
-let 
+// let relem = document.querySelector("#right-elem")
+// let relemImg = document/querySelector("#right-elem img")
+
+// relem.addEventListener("mouseenter", function() {
+//     relemImg.style.opacity = 1
+// })
+
+function page2Animation() {
+    // elem -- is div
+let rightElems  = document.querySelectorAll(".right-elem")
+
+rightElems.forEach(function(elem) {
+    elem.addEventListener("mouseenter", function() {
+        gsap.to(elem.childNodes[3], {
+            opacity: 1,
+            scale: 1
+        })
+    })
+    elem.addEventListener("mouseleave", function(){
+        gsap.to( elem.childNodes[3],{
+        opacity: 0,
+        scale: 0
+    })
+    })
+    elem.addEventListener("mousemove", function(dets){ // dets -- giving mouse element
+        // console.log(elem.getBoundingClientRect().y)
+
+        gsap.to(elem.childNodes[3], {
+            x:dets.x - elem.getBoundingClientRect().x-50,
+            y:dets.y - elem.getBoundingClientRect().y-190
+        }) 
+
+    })
+})
+}
 
 
 
 
 navAnimation()
+page2Animation()
 
 
