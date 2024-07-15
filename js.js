@@ -108,8 +108,8 @@ video.addEventListener("click", function() {
 
 
 
-// navAnimation()
-// page2Animation()
-// page3videoAnimation()
+navAnimation()
+page2Animation()
+page3videoAnimation()
 
 
