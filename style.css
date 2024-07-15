@@ -381,7 +381,7 @@ nav button svg{
     color: #000;
     margin-top: 10vh;
     font-size: 1.2vw;
-    /* width: 80%; */
+    
 }
 
 .sec-right {
@@ -406,4 +406,6 @@ nav button svg{
     object-fit: cover;
     opacity: 0;
     transition: opacity ease 0.1s;
-}
+} 
+
+
