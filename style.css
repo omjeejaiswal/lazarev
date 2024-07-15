@@ -20,6 +20,7 @@ nav{
     width: 100%;
     padding: 2vw 7vw;
     justify-content: space-between;
+    background-color: #111;
     z-index: 10;
 }
 
@@ -33,7 +34,7 @@ nav{
 }
 
 .nav-part2 h4{
-    font-size: 0.6vw;
+    font-size: 0.8vw;
     text-transform: uppercase;
     font-weight: 400;
     margin-bottom: 2.6vw;
@@ -72,18 +73,13 @@ nav button svg{
 
 }
 
-
-
-
-
-
 #nav-bottom{
     width: 88%;
     height: 3vh;
     position: absolute;
     /* background-color: red; */
     top: 85%;
-    background-color: #111;
+    /* background-color: #111; */
     z-index: 9;
     border-bottom: 1px solid white;
 }
@@ -409,3 +405,14 @@ nav button svg{
 } 
 
 
+#page5 {
+    background-color: #111;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    padding: 5vh 10.5vw;
+    display: flex;
+    border: none;
+    position: sticky;
+    top: 15%;
+}
