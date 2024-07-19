@@ -77,20 +77,13 @@ nav button svg{
 }
 
 
-
-
-
-
-
-
-
 #nav-bottom{
     width: 88%;
     height: 3vh;
     position: absolute;
     /* background-color: red; */
     top: 85%;
-    /* background-color: #111; */
+    background-color: #111;
     z-index: 9;
     border-bottom: 1px solid white;
 }
