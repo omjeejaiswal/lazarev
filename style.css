@@ -59,6 +59,7 @@ nav{
 }
 
 
+/* original
 nav button {
     background-color: rgb(81, 173, 81);
     display: flex;
@@ -74,7 +75,61 @@ nav button svg{
     height: 0.8vw;
     margin-left: 1.6vw;
 
+}  */
+
+  /* ---------------------------------------- */
+.nav-button {
+    background-color: rgb(81, 173, 81);
+    display: flex;
+    align-items: center;
+    padding: 12px 12px; 
+    font-size: 0.85vw;
+    font-weight: 700;
+    border-radius: 50px;
+    border: none;
+    color: #fff; 
+    cursor: pointer; 
+    text-transform: uppercase; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease; 
 }
+
+.nav-button svg {
+    height: 0.8vw;
+    margin-left: 1.6vw;
+    transition: margin-left 0.3s ease; 
+}
+
+.nav-button:hover {
+    background-color: rgb(70, 153, 70); 
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); 
+}
+
+.nav-button:hover svg {
+    margin-left: 2vw; 
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 #nav-bottom{
@@ -87,11 +142,6 @@ nav button svg{
     z-index: 9;
     border-bottom: 1px solid white;
 }
-
-
-
-
-
 
 #page1{
     height: 100vh;
