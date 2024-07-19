@@ -470,7 +470,7 @@ nav button svg{
     justify-content: space-between;
 }
 
-#page5 button {
+ #page5 button {
     background-color: #0BA34E;
     padding: 0.9vw 2.5vw;
     font-weight: 600;
@@ -479,7 +479,20 @@ nav button svg{
     border: none;
     position: sticky;
     top: 15%;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease; 
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); 
+
+} 
+
+#page5 button:hover {
+    background-color: #087e3c; 
+    transform: translateY(-2px); 
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.15); 
 }
+
 
 #page5-right {
     width: 70%;
